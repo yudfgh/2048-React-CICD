@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app-container
-          image: prakharm1234/2048:v1  # Use your actual Docker image name and tag
+          image: prakharm1234/2048:v3  # Use your actual Docker image name and tag
           ports:
             - containerPort: 3000  # The port your React app is listening on
 
